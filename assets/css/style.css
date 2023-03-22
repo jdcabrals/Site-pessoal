@@ -1,0 +1,90 @@
+body, ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    height:70px;
+    width: 100%;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#logo{
+    width: 48px;
+    height: 48px;
+    margin: 10px 17px 10px;
+    border-radius: 50%;
+}
+
+#menu{
+    margin: 18px 0px;
+    width: 510px;
+    height:34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#button{
+    height:35px;
+    width:119px;
+    margin: 18px 17px;
+    border: 1px solid black;
+    box-shadow: 7px 4px 0px #F4DD0B;
+}
+
+#container{
+    display:flex;
+    width:100%;
+    height:477px;
+    background:#F8F8F8;
+}
+
+#quemsou{
+    width:496px;
+    height:249px;
+    background-color: #2D2D2D;
+    box-shadow: -21px 8px 0px #F4DD0B;
+    margin: 94px 465px 134px 555px;
+    color: white;
+}
+
+#quemsou h1{
+    width: 180px;
+    height: 40px;
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height:29px;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    margin-left: 151px;
+}
+
+#quemsou p{
+    height:151px;
+    width:229px;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    margin-left: 126px;
+}
+
+#projects{
+    height:274px;
+    background: #2D2D2D;
+    border: 1px solid red;
+}
