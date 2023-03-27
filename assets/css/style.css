@@ -1,4 +1,4 @@
-body, ul
+*
 {
     margin: 0px;
     padding: 0px;
@@ -9,13 +9,16 @@ a{
     text-decoration: none;
 }
 
-header{
+#header{
     height:70px;
     width: 100%;
     background-color: #2d2d2d;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-evenly;
+}
+
+#nav{
+    display:flex;
 }
 
 #logo{
@@ -35,12 +38,18 @@ header{
     list-style: none;
 }
 
-#button{
-    height:35px;
-    width:119px;
+#cv{
+    padding: 8px 5px;
     margin: 18px 17px;
     border: 1px solid black;
     box-shadow: 7px 4px 0px #F4DD0B;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    display:inline-block;
 }
 
 #container{
@@ -55,7 +64,7 @@ header{
     height:249px;
     background-color: #2D2D2D;
     box-shadow: -21px 8px 0px #F4DD0B;
-    margin: 94px 465px 134px 555px;
+    margin: 94px 500px 134px 590px;
     color: white;
 }
 
@@ -86,5 +95,4 @@ header{
 #projects{
     height:274px;
     background: #2D2D2D;
-    border: 1px solid red;
 }
